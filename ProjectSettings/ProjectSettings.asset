@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: e7d424c1e17289547bd2fb6dbc69bea6
+  productGUID: 00000000000000000000000000000000
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -266,7 +266,7 @@ PlayerSettings:
   useCustomGradleSettingsTemplate: 0
   useCustomProguardFile: 0
   AndroidTargetArchitectures: 2
-  AndroidAllowedArchitectures: -1
+  AndroidAllowedArchitectures: -13
   AndroidSplashScreenScale: 0
   androidSplashScreen: {fileID: 0}
   AndroidKeystoreName: '{inproject}: '
@@ -437,6 +437,9 @@ PlayerSettings:
     m_Automatic: 0
   - m_BuildTarget: WebGLSupport
     m_APIs: 1c0000000b000000
+    m_Automatic: 0
+  - m_BuildTarget: WindowsStandaloneSupport
+    m_APIs: 0200000012000000
     m_Automatic: 0
   m_BuildTargetVRSettings: []
   m_DefaultShaderChunkSizeInMB: 16
@@ -780,14 +783,14 @@ PlayerSettings:
   editorAssembliesCompatibilityLevel: 1
   m_RenderingPath: 1
   m_MobileRenderingPath: 1
-  metroPackageName: Haunted House
+  metroPackageName: dig-3480-stealth-haunted-house
   metroPackageVersion: 
   metroCertificatePath: 
   metroCertificatePassword: 
   metroCertificateSubject: 
   metroCertificateIssuer: 
   metroCertificateNotAfter: 0000000000000000
-  metroApplicationDescription: Haunted House
+  metroApplicationDescription: dig-3480-stealth-haunted-house
   wsaImages: {}
   metroTileShortName: 
   metroTileShowName: 0
@@ -862,7 +865,7 @@ PlayerSettings:
   cloudProjectId: a78a40d7-4a08-40ba-994b-e8ef8e2392db
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: Haunted House
+  projectName: 
   organizationId: inbrowser10
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
