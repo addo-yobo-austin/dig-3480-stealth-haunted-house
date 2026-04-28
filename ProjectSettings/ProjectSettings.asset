@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 28
-  productGUID: 00000000000000000000000000000000
+  productGUID: d744a6eb8f039f247aab87c69265bfc3
   AndroidProfiler: 0
   AndroidFilterTouchesWhenObscured: 0
   AndroidEnableSustainedPerformanceMode: 0
@@ -865,7 +865,7 @@ PlayerSettings:
   cloudProjectId: a78a40d7-4a08-40ba-994b-e8ef8e2392db
   framebufferDepthMemorylessMode: 0
   qualitySettingsNames: []
-  projectName: 
+  projectName: Haunted House
   organizationId: inbrowser10
   cloudEnabled: 0
   legacyClampBlendShapeWeights: 1
