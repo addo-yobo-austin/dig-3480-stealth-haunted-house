@@ -16,8 +16,8 @@ TagManager:
   - Post Processing Volumes
   - EnemyModel
   - MiniMapView
-  - 
-  - 
+  - PlayerModel
+  - MiniMapEnvironment
   - 
   - 
   - 
