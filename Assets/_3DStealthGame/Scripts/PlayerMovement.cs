@@ -8,6 +8,7 @@ public class PlayerMovement : MonoBehaviour
     private Animator m_Animator;
     public InputAction MoveAction;
 
+    public float defaultWalkSpeed = 1.0f;
     public float walkSpeed = 1.0f;
     public float turnSpeed = 20f;
 
@@ -40,6 +41,11 @@ public class PlayerMovement : MonoBehaviour
         m_Rotation = Quaternion.LookRotation (desiredForward);
         
         m_Rigidbody.MoveRotation (m_Rotation);
-        m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * walkSpeed * Time.deltaTime);
+        m_Rigidbody.MovePosition (m_Rigidbody.position + m_Movement * (walkSpeed * Time.deltaTime));
+    }
+
+    public void InterruptMovement(bool setInterrupt)
+    {
+        walkSpeed = setInterrupt ? 0 : defaultWalkSpeed;
     }
 }

@@ -1,3 +1,4 @@
+using System;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UIElements;
@@ -17,6 +18,7 @@ public class GameEnding : MonoBehaviour
     bool m_IsPlayerCaught;
     float m_Timer;
 
+    public static Action OnEnd;
 
     private VisualElement m_EndScreen;
     private VisualElement m_CaughtScreen;
@@ -54,6 +56,8 @@ public class GameEnding : MonoBehaviour
 
     void EndLevel (VisualElement element, bool doRestart, AudioSource audioSource)
     {
+        OnEnd?.Invoke();
+        
         if (!m_HasAudioPlayed)
         {
             audioSource.Play();

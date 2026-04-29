@@ -104,6 +104,7 @@ GameObject:
   - component: {fileID: 7673492590296123610}
   - component: {fileID: 2117422482199251567}
   - component: {fileID: 2088692592319459458}
+  - component: {fileID: 8010327467197020845}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -311,6 +312,21 @@ AudioListener:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 9169157990832904072}
   m_Enabled: 1
+--- !u!114 &8010327467197020845
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9169157990832904072}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63ef3317b33b76862ad6142960f1661a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::RandomPetrify
+  _playerMovement: {fileID: 7673492590296123610}
+  _minDuration: 5
+  _maxDuration: 12
 --- !u!1001 &1396756542285238230
 PrefabInstance:
   m_ObjectHideFlags: 0
